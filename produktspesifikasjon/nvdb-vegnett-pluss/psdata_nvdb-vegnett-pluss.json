@@ -95,8 +95,9 @@
     },
     {
       "specificationScope": {
-        "scopeIdentification": "DGIF_transportation",
-        "level": "dataset"
+        "scopeIdentification": "DGIF_transportation_ny",
+        "level": "dataset",
+        "levelDescription": "Fra DGIWG"
       }
     },
     {
@@ -240,7 +241,7 @@
     "om_produktet": 139,
     "formaal": 14,
     "bruksomraade": 22,
-    "omfang": 26,
+    "omfang": 28,
     "datainnhold_og_struktur": 0,
     "referansesystem": 16,
     "datakvalitet": 12,
