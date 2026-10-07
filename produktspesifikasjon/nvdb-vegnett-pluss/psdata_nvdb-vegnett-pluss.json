@@ -1,0 +1,255 @@
+{
+  "overview": "Denne produktspesifikasjonen er autogenerert fra metadata i Geonorge og datamodell fra SOSI modellregister og/eller OGC API Features. Noe ekstra informasjon kan ha blitt lagt til gjennom manuell prosess. Produktspesifikasjonen er i henhold til standarden: 'Geografisk informasjon - Dataproduktspesifikasjoner' (ISO19131:2022)",
+  "title": "NVDB Vegnett Pluss",
+  "format": "text/html",
+  "date": {
+    "creation": "2025-11-06",
+    "revision": "2026-09-02"
+  },
+  "language": "nor",
+  "contact": {
+    "individualName": "David Diaz",
+    "organizationName": "Kartverket",
+    "logo": "https://register.geonorge.no/data/organizations/971040238_Kartverket_liten.png",
+    "electronicMailAddress": "kundesenter@kartverket.no",
+    "role": "owner"
+  },
+  "identificationSection": {
+    "title": "NVDB Vegnett Pluss",
+    "abstract": "NVDB Vegnett Pluss er et forvaltningsdatasett for kommunene til forvaltning av vegnettet i SFKB. En kvalitetssikret versjon tilgjengeliggjøres på Geonorge. Datasettet omfatter alle kjørbare veger som er lengre enn 50 meter, eller del av et nettverk, samt gang- og sykkelveger og sykkelveger representert som veglenkegeometri. Fortau, gangveger, gangfelt, traktorveger og stier som tidligere fantes i FKB-TraktorvegSti, vil også være en del av NVDB Vegnett Pluss. For disse typene veg gjenstår noe innsamling av data.\n\nI tillegg inneholder datasettet adresseinformasjon (som gir mulighet for kobling til matrikkelen og andre registre), fartsgrenser, trafikkreguleringer og vegklasser. Veglenkens attributter er tematisert etter typeveg, vegkategori og vegfase.",
+    "purpose": {
+      "summary": "Formålet med datasettet er å ha et nasjonalt dekkende vegnett med senterlinjegeometri og nettverkstopologi.",
+      "useCase": {
+        "name": "Bruksområde",
+        "summary": "Datasettet egner seg godt til bilnavigasjon, transportplanlegging, transportoptimalisering, ruteplanlegging, samfunnsplanlegging, adressering, vedlikehold og drift og kartfremstilling i både stor og liten målestokk."
+      }
+    },
+    "topicCategory": [
+      "Transport"
+    ],
+    "spatialRepresentationType": "Vektor",
+    "supplementalInformation": "Trenger du hjelp til å laste ned og ta i bruk Kartverkets data og tjenester? På kartverket.no finner du tips og veiledning.",
+    "uniqueId": "https://data.geonorge.no/sosi/samferdsel/nvdb_vegnett_pluss",
+    "keyword": [
+      "Transportnett",
+      "fellesDatakatalog",
+      "Samferdsel"
+    ],
+    "restriction": {
+      "legalConstraints": {
+        "accessConstraints": "Åpne data",
+        "useConstraints": "Lisens",
+        "license": "Creative Commons BY 4.0 (CC BY 4.0)",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    "contact": [
+      {
+        "individualName": "David Diaz",
+        "organizationName": "Kartverket",
+        "electronicMailAddress": "kundesenter@kartverket.no",
+        "role": "owner"
+      },
+      {
+        "individualName": "David Diaz",
+        "organizationName": "Kartverket",
+        "electronicMailAddress": "kundesenter@kartverket.no",
+        "role": "pointOfContact"
+      },
+      {
+        "individualName": "David Diaz",
+        "organizationName": "Kartverket",
+        "electronicMailAddress": "kundesenter@kartverket.no",
+        "role": "publisher"
+      }
+    ],
+    "maintenance": "Månedlig",
+    "extent": {
+      "geographicElement": {
+        "westBoundLongitude": "2.0",
+        "eastBoundLongitude": "33.0",
+        "southBoundLatitude": "57.0",
+        "northBoundLatitude": "72.0"
+      },
+      "temporalElement": {
+        "timePeriod": {
+          "beginPosition": "2025-11-06",
+          "endPosition": "2026-09-02"
+        }
+      }
+    },
+    "date": {
+      "creation": "2025-11-06",
+      "publication": "2025-11-06",
+      "revision": "2026-09-02"
+    },
+    "language": "nor"
+  },
+  "scopeSection": [
+    {
+      "specificationScope": {
+        "scopeIdentification": "Hele datasettet",
+        "level": "dataset",
+        "levelDescription": "Gjelder hele datasettet. Hvis omfang ikke er oppgitt under en overskrift, gjelder teksten for hele datasettet og alle leveranser"
+      }
+    },
+    {
+      "specificationScope": {
+        "scopeIdentification": "DGIF_transportation",
+        "level": "dataset"
+      }
+    },
+    {
+      "specificationScope": {
+        "scopeIdentification": "DGIF_beredskap",
+        "level": "dataset"
+      }
+    }
+  ],
+  "referenceSystemSection": {
+    "spatialReferenceSystem": [
+      {
+        "code": "EPSG:5973",
+        "name": "EUREF89 UTM sone 33, 2d + NN2000"
+      },
+      {
+        "code": "EPSG:5973",
+        "name": "EUREF89 UTM sone 33, 2d + NN2000"
+      }
+    ]
+  },
+  "dataQualitySection": {
+    "scope": {
+      "level": "dataset"
+    },
+    "report": [
+      {
+        "nameOfMeasure": "SOSI produktspesifikasjon: NVDB Vegnett Pluss",
+        "descriptiveResult": "Dataene er ikke vurdert iht produktspesifikasjonen"
+      }
+    ]
+  },
+  "maintenanceSection": {
+    "maintenanceAndUpdateFrequency": "Månedlig"
+  },
+  "deliverySection": [
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "unitsOfDelivery": "fylkesvis, kommunevis, landsfiler",
+          "deliveryMediumName": "Geonorge nedlastning",
+          "deliveryService": {
+            "serviceEndpoint": "https://nedlasting.geonorge.no/api/capabilities/97e6a869-8dd4-4379-bf39-f7d7dbf94863",
+            "serviceProperty": {
+              "type": "Geonorge nedlastning",
+              "value": "GEONORGE:DOWNLOAD"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "GML"
+          },
+          {
+            "formatName": "SOSI"
+          }
+        ]
+      }
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "unitsOfDelivery": "fylkesvis, kommunevis, landsfiler",
+          "deliveryMediumName": "Atom Feed",
+          "deliveryService": {
+            "serviceEndpoint": "http://nedlasting.geonorge.no/geonorge/ATOM-feeds/NVDB-VegnettPluss_AtomFeedGML.xml",
+            "serviceProperty": {
+              "type": "Atom Feed",
+              "value": "W3C:AtomFeed"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "GML"
+          }
+        ]
+      }
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "unitsOfDelivery": "fylkesvis, kommunevis, landsfiler",
+          "deliveryMediumName": "Atom Feed",
+          "deliveryService": {
+            "serviceEndpoint": "http://nedlasting.geonorge.no/geonorge/ATOM-feeds/NVDB-VegnettPluss_AtomFeedSOSI.xml",
+            "serviceProperty": {
+              "type": "Atom Feed",
+              "value": "W3C:AtomFeed"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "SOSI"
+          }
+        ]
+      }
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "deliveryMediumName": "GeoPackage: dgif-beredskap",
+          "deliveryService": {
+            "serviceEndpoint": "https://raw.githubusercontent.com/larsingea/ps_kartverket/main/produktspesifikasjon/nvdb-vegnett-pluss/dgif-beredskap/dgif-beredskap.gpkg",
+            "serviceProperty": {
+              "type": "Fil",
+              "value": "Nedlasting"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "GPKG"
+          }
+        ]
+      }
+    }
+  ],
+  "metadataSection": {
+    "metadataStandard": "ISO19115",
+    "metadataStandardVersion": "2003",
+    "metadataDate": "2026-10-06",
+    "language": "nor",
+    "contact": {
+      "organizationName": "Kartverket",
+      "individualName": "David Diaz",
+      "logo": "https://register.geonorge.no/data/organizations/971040238_Kartverket_liten.png",
+      "electronicMailAddress": "kundesenter@kartverket.no",
+      "role": "pointOfContact"
+    },
+    "metadataIdentifier": {
+      "authority": "Geonorge",
+      "code": "97e6a869-8dd4-4379-bf39-f7d7dbf94863",
+      "codeSpace": "https://kartkatalog.geonorge.no/metadata/",
+      "metadataLinkage": "https://kartkatalog.geonorge.no/metadata/97e6a869-8dd4-4379-bf39-f7d7dbf94863"
+    }
+  },
+  "chapterAutofill": {
+    "om_spesifikasjonen": 9,
+    "om_produktet": 139,
+    "formaal": 14,
+    "bruksomraade": 22,
+    "omfang": 26,
+    "datainnhold_og_struktur": 0,
+    "referansesystem": 16,
+    "datakvalitet": 12,
+    "datafangst_og_produksjon": 0,
+    "vedlikehold": 1,
+    "presentasjon": 0,
+    "leveranse": 37,
+    "metadata": 14,
+    "tilleggsinformasjon": 22,
+    "datamodell": 22705
+  }
+}
