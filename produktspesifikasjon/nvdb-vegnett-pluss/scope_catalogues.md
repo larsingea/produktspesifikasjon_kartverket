@@ -1,12 +1,12 @@
-### Datamodell - DGIF_transportation
+### Datamodell - DGIF_transportation_ny
 
 
 
-<a href="dgif-transportation/dgif-transportation_feature_catalogue.png" title="Klikk for stor visning"><img src="dgif-transportation/dgif-transportation_feature_catalogue.png" alt="Datamodell DGIF_transportation" style="max-width: 100%; height: auto;" /></a>
+<a href="dgif-transportation-ny/dgif-transportation-ny_feature_catalogue.png" title="Klikk for stor visning"><img src="dgif-transportation-ny/dgif-transportation-ny_feature_catalogue.png" alt="Datamodell DGIF_transportation_ny" style="max-width: 100%; height: auto;" /></a>
 
 
 
-➡️ [Se full datamodell for omfang "DGIF_transportation" (diagram per pakke og objektkatalog)](dgif-transportation/objektkatalog.html)
+➡️ [Se full datamodell for omfang "DGIF_transportation_ny" (diagram per pakke og objektkatalog)](dgif-transportation-ny/objektkatalog.html)
 
 ### Datamodell - DGIF_beredskap
 
