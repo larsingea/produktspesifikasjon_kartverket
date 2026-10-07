@@ -1,0 +1,14 @@
+metadataId: 97e6a869-8dd4-4379-bf39-f7d7dbf94863
+output_directory: produktspesifikasjon
+product_slug: nvdb_vegnett_pluss
+updated: '2026-10-07'
+outputs: geopackage
+scopes:
+- name: DGIF_transportation
+  url: https://sosi.geonorge.no/svn/SOSI/SOSI%20Del%203/SOSI_ProdSpek_Eksempel.xml
+  generator: xmi
+  description: ''
+- name: DGIF_beredskap
+  url: https://sosi.geonorge.no/svn/SOSI/SOSI%20Del%203/Statens%20kartverk/N10-Beredskap-DGIF.xml
+  generator: xmi
+  description: ''
