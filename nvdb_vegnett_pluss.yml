@@ -4,10 +4,10 @@ product_slug: nvdb_vegnett_pluss
 updated: '2026-10-07'
 outputs: geopackage
 scopes:
-- name: DGIF_transportation
+- name: DGIF_transportation_ny
   url: https://sosi.geonorge.no/svn/SOSI/SOSI%20Del%203/SOSI_ProdSpek_Eksempel.xml
   generator: xmi
-  description: ''
+  description: Fra DGIWG
 - name: DGIF_beredskap
   url: https://sosi.geonorge.no/svn/SOSI/SOSI%20Del%203/Statens%20kartverk/N10-Beredskap-DGIF.xml
   generator: xmi
