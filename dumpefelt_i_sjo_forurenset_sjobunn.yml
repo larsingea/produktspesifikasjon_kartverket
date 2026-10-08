@@ -5,6 +5,6 @@ updated: '2026-10-08'
 outputs: geopackage
 scopes:
 - name: Datamodell for Dumpefelt
-  url: ''
+  url: https://sosi.geonorge.no/svn/SOSI/SOSI%20Del%203/Statens%20kartverk/DumpefeltSj%c3%b8-20260415.xml
   generator: xmi
-  description: ''
+  description: Basert på SOSI UML-modell
