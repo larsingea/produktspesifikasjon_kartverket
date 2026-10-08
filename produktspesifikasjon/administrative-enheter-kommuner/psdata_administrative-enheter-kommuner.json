@@ -41,7 +41,6 @@
       "Fylkesgrenser",
       "Riksgrense",
       "ABAS",
-      "Norge fastland",
       "Administrative enheter",
       "Det offentlige kartgrunnlaget",
       "Inspire",
@@ -94,6 +93,9 @@
         "southBoundLatitude": "57.0",
         "northBoundLatitude": "72.0"
       },
+      "geographicDescription": [
+        "Norge fastland"
+      ],
       "temporalElement": {
         "timePeriod": {
           "beginPosition": "2006-07-01",
@@ -118,7 +120,7 @@
     },
     {
       "specificationScope": {
-        "scopeIdentification": "Datamodell fra UML",
+        "scopeIdentification": "Datamodell fra UML for dumpefelt",
         "level": "dataset",
         "levelDescription": "Datamodell for filer levert ihht. SOSI datamodell"
       }
@@ -200,7 +202,7 @@
           "unitsOfDelivery": "fylkesvis, kommunevis, landsfiler",
           "deliveryMediumName": "Geonorge nedlastning",
           "deliveryService": {
-            "serviceEndpoint": "https://nedlasting.geonorge.no/api/capabilities/",
+            "serviceEndpoint": "https://nedlasting.geonorge.no/api/capabilities/041f1e6e-bdbc-4091-b48f-8a5990f3cc5b",
             "serviceProperty": {
               "type": "Geonorge nedlastning",
               "value": "GEONORGE:DOWNLOAD"
@@ -368,9 +370,47 @@
     {
       "delivery": {
         "deliveryMedium": {
+          "deliveryMediumName": "GeoPackage: datamodell-fra-uml-for-dumpefelt",
+          "deliveryService": {
+            "serviceEndpoint": "https://raw.githubusercontent.com/larsingea/ps_kartverket/main/produktspesifikasjon/administrative-enheter-kommuner/datamodell-fra-uml-for-dumpefelt/datamodell-fra-uml-for-dumpefelt.gpkg",
+            "serviceProperty": {
+              "type": "Fil",
+              "value": "Nedlasting"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "GPKG"
+          }
+        ]
+      }
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
           "deliveryMediumName": "GML/XSD-skjema: datamodell-fra-uml",
           "deliveryService": {
             "serviceEndpoint": "https://raw.githubusercontent.com/larsingea/ps_kartverket/main/produktspesifikasjon/administrative-enheter-kommuner/datamodell-fra-uml/schema/xsd/INPUT/datamodell-fra-uml.xsd",
+            "serviceProperty": {
+              "type": "Fil",
+              "value": "Nedlasting"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "XSD"
+          }
+        ]
+      }
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "deliveryMediumName": "GML/XSD-skjema: datamodell-fra-uml-for-dumpefelt",
+          "deliveryService": {
+            "serviceEndpoint": "https://raw.githubusercontent.com/larsingea/ps_kartverket/main/produktspesifikasjon/administrative-enheter-kommuner/datamodell-fra-uml-for-dumpefelt/schema/xsd/INPUT/datamodell-fra-uml-for-dumpefelt.xsd",
             "serviceProperty": {
               "type": "Fil",
               "value": "Nedlasting"
@@ -402,12 +442,31 @@
           }
         ]
       }
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "deliveryMediumName": "JSON Schema: datamodell-fra-uml-for-dumpefelt",
+          "deliveryService": {
+            "serviceEndpoint": "https://raw.githubusercontent.com/larsingea/ps_kartverket/main/produktspesifikasjon/administrative-enheter-kommuner/datamodell-fra-uml-for-dumpefelt/schema/jsonschema/INPUT/datamodellfraumlfordumpefelt/datamodell-fra-uml-for-dumpefelt.json",
+            "serviceProperty": {
+              "type": "Fil",
+              "value": "Nedlasting"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "JSON Schema"
+          }
+        ]
+      }
     }
   ],
   "metadataSection": {
     "metadataStandard": "ISO19115",
     "metadataStandardVersion": "2003",
-    "metadataDate": "2026-09-09",
+    "metadataDate": "2026-10-08",
     "language": "nor",
     "contact": {
       "organizationName": "Kartverket",
@@ -428,5 +487,22 @@
       "title": "Produktark",
       "href": "https://register.geonorge.no/produktark/administrative-enheter-norge"
     }
-  ]
+  ],
+  "chapterAutofill": {
+    "om_spesifikasjonen": 10,
+    "om_produktet": 224,
+    "formaal": 4,
+    "bruksomraade": 29,
+    "omfang": 35,
+    "datainnhold_og_struktur": 0,
+    "referansesystem": 36,
+    "datakvalitet": 104,
+    "datafangst_og_produksjon": 0,
+    "vedlikehold": 3,
+    "presentasjon": 2,
+    "leveranse": 114,
+    "metadata": 15,
+    "tilleggsinformasjon": 24,
+    "datamodell": 68176
+  }
 }

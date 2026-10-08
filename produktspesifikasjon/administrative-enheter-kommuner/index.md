@@ -17,7 +17,7 @@ Datasettet har referansedato 1.1.2026, og er oppdatert med overføring av to are
 
 Datasettet blir oppdatert årlig, og da ved nyttår. Dersom det blir gjort vedtak om grensejustering mellom kommuner etter inndelingsloven med ikrafttredelsesdato underveis i året, blir filene oppdatert rundt ikrafttredelsesdato.*
 
-**Nøkkelord:** Kommune, Administrativ inndeling, Administrative grenser, Kommunegrenser, Fylkesgrenser, Riksgrense, ABAS, Norge fastland, Administrative enheter, Det offentlige kartgrunnlaget, Inspire, geodataloven, Norge digitalt, beredskapsbase, dataNorgeNo, fellesDatakatalog, Basis geodata, Norge
+**Nøkkelord:** Kommune, Administrativ inndeling, Administrative grenser, Kommunegrenser, Fylkesgrenser, Riksgrense, ABAS, Administrative enheter, Det offentlige kartgrunnlaget, Inspire, geodataloven, Norge digitalt, beredskapsbase, dataNorgeNo, fellesDatakatalog, Basis geodata, Norge
 
 **Emnekategorier:** Administrative grenser
 
@@ -27,6 +27,9 @@ Datasettet blir oppdatert årlig, og da ved nyttår. Dersom det blir gjort vedta
 - **Øst**: 33.0
 - **Sør**: 57.0
 - **Nord**: 72.0
+
+**Geografisk område**:
+Norge fastland
 
 **Tidsmessig utstrekning**:
 
@@ -87,7 +90,7 @@ Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Pres
 
 **Nivåbeskrivelse**: Gjelder hele datasettet. Hvis omfang ikke er oppgitt under en overskrift, gjelder teksten for hele datasettet og alle leveranser
 
-### Datamodell fra UML
+### Datamodell fra UML for dumpefelt
 
 **Nivå**: dataset
 
@@ -97,15 +100,15 @@ Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Pres
 
 
 
-### Datamodell - Datamodell fra UML
+### Datamodell - Datamodell fra UML for dumpefelt
 
 
 
-<a href="datamodell-fra-uml/datamodell-fra-uml_feature_catalogue_overview.png" title="Klikk for stor visning"><img src="datamodell-fra-uml/datamodell-fra-uml_feature_catalogue_overview.png" alt="Datamodell Datamodell fra UML" style="max-width: 100%; height: auto;" /></a>
+<a href="datamodell-fra-uml-for-dumpefelt/datamodell-fra-uml-for-dumpefelt_feature_catalogue.png" title="Klikk for stor visning"><img src="datamodell-fra-uml-for-dumpefelt/datamodell-fra-uml-for-dumpefelt_feature_catalogue.png" alt="Datamodell Datamodell fra UML for dumpefelt" style="max-width: 100%; height: auto;" /></a>
 
 
 
-➡️ [Se full datamodell for omfang "Datamodell fra UML" (diagram per pakke og objektkatalog)](datamodell-fra-uml/objektkatalog.html)
+➡️ [Se full datamodell for omfang "Datamodell fra UML for dumpefelt" (diagram per pakke og objektkatalog)](datamodell-fra-uml-for-dumpefelt/objektkatalog.html)
 
 ## Referansesystem
 
@@ -164,7 +167,7 @@ Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Pres
 
 | Tjeneste | Endepunkt | Type | Format | Leveranseenheter |
 | --- | --- | --- | --- | --- |
-| Geonorge nedlastning | [Lenke](https://nedlasting.geonorge.no/api/capabilities/) | GEONORGE:DOWNLOAD | FGDB, GeoJSON, GML, PostGIS, SOSI | fylkesvis, kommunevis, landsfiler |
+| Geonorge nedlastning | [Lenke](https://nedlasting.geonorge.no/api/capabilities/041f1e6e-bdbc-4091-b48f-8a5990f3cc5b) | GEONORGE:DOWNLOAD | FGDB, GeoJSON, GML, PostGIS, SOSI | fylkesvis, kommunevis, landsfiler |
 | Atom Feed | [Lenke](http://nedlasting.geonorge.no/geonorge/ATOM-feeds/AdministrativeEnheterKommuner_AtomFeedFGDB.xml) | W3C:AtomFeed | FGDB | fylkesvis, kommunevis, landsfiler |
 | Atom Feed | [Lenke](http://nedlasting.geonorge.no/geonorge/ATOM-feeds/AdministrativeEnheterKommuner_AtomFeedGML.xml) | W3C:AtomFeed | GML | fylkesvis, kommunevis, landsfiler |
 | Atom Feed | [Lenke](http://nedlasting.geonorge.no/geonorge/ATOM-feeds/AdministrativeEnheterKommuner_AtomFeedGeoJSON.xml) | W3C:AtomFeed | GeoJSON | fylkesvis, kommunevis, landsfiler |
@@ -172,8 +175,11 @@ Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Pres
 | Atom Feed | [Lenke](http://nedlasting.geonorge.no/geonorge/ATOM-feeds/AdministrativeEnheterKommuner_AtomFeedSOSI.xml) | W3C:AtomFeed | SOSI | fylkesvis, kommunevis, landsfiler |
 | Administrative enheter WMS | [Lenke](https://wms.geonorge.no/skwms1/wms.adm_enheter2?service=wms&request=GetCapabilities) | WMS-tjeneste | png |  |
 | GeoPackage: datamodell-fra-uml | [Lenke](https://raw.githubusercontent.com/larsingea/ps_kartverket/main/produktspesifikasjon/administrative-enheter-kommuner/datamodell-fra-uml/datamodell-fra-uml.gpkg) | Nedlasting | GPKG |  |
+| GeoPackage: datamodell-fra-uml-for-dumpefelt | [Lenke](https://raw.githubusercontent.com/larsingea/ps_kartverket/main/produktspesifikasjon/administrative-enheter-kommuner/datamodell-fra-uml-for-dumpefelt/datamodell-fra-uml-for-dumpefelt.gpkg) | Nedlasting | GPKG |  |
 | GML/XSD-skjema: datamodell-fra-uml | [Lenke](https://raw.githubusercontent.com/larsingea/ps_kartverket/main/produktspesifikasjon/administrative-enheter-kommuner/datamodell-fra-uml/schema/xsd/INPUT/datamodell-fra-uml.xsd) | Nedlasting | XSD |  |
+| GML/XSD-skjema: datamodell-fra-uml-for-dumpefelt | [Lenke](https://raw.githubusercontent.com/larsingea/ps_kartverket/main/produktspesifikasjon/administrative-enheter-kommuner/datamodell-fra-uml-for-dumpefelt/schema/xsd/INPUT/datamodell-fra-uml-for-dumpefelt.xsd) | Nedlasting | XSD |  |
 | JSON Schema: datamodell-fra-uml | [Lenke](https://raw.githubusercontent.com/larsingea/ps_kartverket/main/produktspesifikasjon/administrative-enheter-kommuner/datamodell-fra-uml/schema/jsonschema/INPUT/datamodellfrauml/datamodell-fra-uml.json) | Nedlasting | JSON Schema |  |
+| JSON Schema: datamodell-fra-uml-for-dumpefelt | [Lenke](https://raw.githubusercontent.com/larsingea/ps_kartverket/main/produktspesifikasjon/administrative-enheter-kommuner/datamodell-fra-uml-for-dumpefelt/schema/jsonschema/INPUT/datamodellfraumlfordumpefelt/datamodell-fra-uml-for-dumpefelt.json) | Nedlasting | JSON Schema |  |
 
 ## Metadata
 
@@ -181,7 +187,7 @@ Forvaltningsmessig saksbehandling. Analyse og presentasjon i et GIS-system. Pres
 
 **Metadatastandardversjon**: 2003
 
-**Metadatadato**: 2026-09-09
+**Metadatadato**: 2026-10-08
 
 **språk**: nor
 
